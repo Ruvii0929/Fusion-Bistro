@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            background-image: url("BG.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container {
+    display: flex;
+    width: 75%;
+    max-width: 850px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+        .image-section {
+            flex: 1;
+            background: url("food.jpg") no-repeat center center/cover;
+        }
+        .form-section {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+        }
+        .form-section h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .remember {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .remember input {
+            margin-right: 5px;
+        }
+        .signup {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .signup a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .signup a:hover {
+            text-decoration: underline;
+        }
+        button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(5px); /* Adds a blur effect */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section"></div>
+        <div class="form-section">
+            <h2>Welcome Back</h2>
+            <p>Sign in with your email address, phone, and address.</p>
+            <form>
+                <div class="input-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit"><a href="G:\Hrutvik\order.html">submit</a></button>
+            </form>
+            <div class="signup">
+                <p>Don't have an account? <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=445112211283-sk04feuogpcjd3dq8eshrdnr4bpm1sfk.apps.googleusercontent.com&response_type=code&access_type=offline&scope=openid%20email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar%20https%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F%20https%3A%2F%2Fmail.google.com%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuser.birthday.read%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&prompt=consent&include_granted_scopes=true&redirect_uri=https%3A%2F%2Foutlook.office.com%2Fmail%2FoauthRedirect.html%3Fapp%3Dnative&login_hint=hrutvikp29%40gmail.com&code_challenge=h80-~8g1-rLigoHGNUgJMTVdGG4gTLXAm9x6rV6e9Mp5S8S_uGlDSC2LSCHPDl-L&enable_granular_consent=true&state=Y29ycmVsYXRpb25faWQ9ODUzYzIxZWEtNjg3YS1mMmY1LTIwNDQtNGEyMDg5OWQ3ZjJlJmxvZ2luX2hpbnQ9aHJ1dHZpa3AyOUBnbWFpbC5jb20mdHlwZV9oaW50PUdvb2dsZSZpbnN0YW5jZV9pZD0x&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow" style="text-decoration: none;">Sign In Using Google Account</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

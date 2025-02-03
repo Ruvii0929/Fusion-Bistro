@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f0;
+            color: #333;
+        }
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e74c3c;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+       .hero h1 {
+            font-size: 3rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            align-items: center;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-content h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #c0392b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Order Section</h1>
+    </header>
+    <nav>
+        <a href="project01.html">Home</a>
+    </nav>
+        <h1 style="text-align: center;">Your Order Has Been Placed sucessfully :)</h1>
+    <section id="dishes">
+        <div class="cards">
+            <div class="card">
+                
+                <div class="card-content">
+                    <h3>Please Wait Patiently</h3>
+                    <p>Your order is being prepared by highly qualified chefs to give you the authentic flavours of the dish</p>
+                    <img src="G:\Hrutvik\logo.webp" alt="Lazaniya" width="216px" height="200px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Contact us at <a href="mailto:info@fusionbistro.com" style="color: white;">info@fusionbistro.com</a></p>
+        <p>&copy; 2025 Fusion Bistro. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

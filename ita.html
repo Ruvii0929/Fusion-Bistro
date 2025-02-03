@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Cuisine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f0;
+            color: #333;
+        }
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e74c3c;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+       .hero h1 {
+            font-size: 3rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-content h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #c0392b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        button{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(5px); /* Adds a blur effect */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Italian Cuisine</h1>
+        <p>Explore the taste of Italy</p>
+    </header>
+    <nav>
+        <a href="project01.html">Home</a>
+    </nav>
+    <div class="hero">
+        <h1 style="text-align: center;">Delicious Italian Dishes Await</h1>
+    </div>
+    <section id="about">
+        <h2>About Italian Cuisine</h2>
+        <p>Italian cuisine is known for its regional diversity, especially between the north and the south of Italy. It offers an abundance of taste, and is one of the most popular and copied in the world. It influenced several cuisines around the world, including that of the United States.</p>
+    </section>
+    <section id="dishes">
+        <h2>Popular Dishes</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="G:\Hrutvik\ita_d_1.jpg" alt="Lazaniya">
+                <div class="card-content">
+                    <h3>Lasagne</h3>
+                    <p>Lasagne consists of beef ragu and vegetables layered between pasta sheets and bechamel sauce, topped with cheeses (most often parmesan or mozzarella), and oven baked.</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: none ; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="G:\Hrutvik\ita_d_2.jpg" alt="Pasta">
+                <div class="card-content">
+                    <h3>Risotto</h3>
+                    <p>Whilst Italy isn’t particularly well known for its rice dishes, risotto is a unique and unreserved part of traditional Italian cuisine.</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: 'none'; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="G:\Hrutvik\ita_d_3.jpg" alt="Gelato">
+                <div class="card-content">
+                    <h3>Spaghetti</h3>
+                    <p>Carbonara is another classic spaghetti dish very typically associated with Italian cooking and eaten around the world.</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: 'none'; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="G:\Hrutvik\ita_d_4.jpg" alt="Gelato">
+                <div class="card-content">
+                    <h3>Aranchini</h3>
+                    <p>Arancini are stuffed rice balls coated in flour and breadcrumbs and fried to a golden brown colour</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: 'none'; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div><div class="card">
+                <img src="G:\Hrutvik\ita_d_5.jpg" alt="Gelato">
+                <div class="card-content">
+                    <h3>Agnolotti</h3>
+                    <p>Agnolotti is stuffed pasta which is made by stuffing pasta dough with roasted meat or vegetables</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: 'none'; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div><div class="card">
+                <img src="G:\Hrutvik\ita_d_6.jpg" alt="Gelato">
+                <div class="card-content">
+                    <h3>Pizza</h3>
+                    <p>Neapolitan pizza is the most simple and authentic of them all, consisting solely of a dough base with tomatoes, mozzarella cheese, fresh basil and olive oil.</p>
+                    <button style=" transform: translateY('-5px'); box-shadow: 0 4px 8px rgba('0, 0, 0, 0.2'); text-decoration: 'none'; text-align: center;"> <h5><a href="order.html" style="color: black;">Place Your Order</a></h5></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Contact us at <a href="mailto:info@fusionbistro.com" style="color: white;">info@fusionbistro.com</a></p>
+        <p>&copy; 2025 Fusion Bistro. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
